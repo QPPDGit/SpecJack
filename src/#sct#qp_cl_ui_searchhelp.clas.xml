@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/SCT/QP_CL_UI_SEARCHHELP</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>UI Search Help</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>D</LANGU>
+     <DESCRIPT>UI Search Help</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONV_EX2IN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>External-&gt;Internal data format</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONV_IN2EX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal-&gt;External data format</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_BUILD_OUT_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create dynamic output table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_BUILD_SELECTION_FIELDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display selection fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_BUTTON_CANCEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Action CANCEL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_BUTTON_CONFIRM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Action CONFIRM (transfer value)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display main popup</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_DISPLAY_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display search help table content (obsolete)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_DISPLAY_UITABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display search help table content</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_FILL_OUT_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fill output table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_PREPARE_INTF_SELOPT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>populate selection fields</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_SELECT_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Suchhilfetabelle befüllen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_SELECT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fill search help table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_SELFIELDS_TO_SELOPT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>convert maintained selection fields as SELOPT values</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_SET_SELOPT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>selection-field -&gt; selopt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INIT_SHLP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Initialize search help</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_TOE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TEO Haupt Struktur</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_TOE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>TOE main structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_STRIP_MESSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Message Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>POPUP_ERROR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>just in case something goes wrong…</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONV_EX2IN</CMPNAME>
+     <SCONAME>IS_DFIES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DD Interface: Table Fields for DDIF_FIELDINFO_GET</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONV_IN2EX</CMPNAME>
+     <SCONAME>IS_DFIES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>DD Interface: Table Fields for DDIF_FIELDINFO_GET</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_BUILD_OUT_TABLE</CMPNAME>
+     <SCONAME>ET_CHECKBOX</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_BUILD_OUT_TABLE</CMPNAME>
+     <SCONAME>IT_DESCR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>tabellentyp zur struktur Dfies</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_BUILD_OUT_TABLE</CMPNAME>
+     <SCONAME>IT_DESCR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for structure DFIES</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_FILL_OUT_TABLE</CMPNAME>
+     <SCONAME>IT_DESCR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table type for structure DFIES</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_FILL_OUT_TABLE</CMPNAME>
+     <SCONAME>IT_OUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Results List in F4 Help</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_PREPARE_INTF_SELOPT</CMPNAME>
+     <SCONAME>CS_SHLP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Description of Search Help</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DO_SET_SELOPT</CMPNAME>
+     <SCONAME>CS_SELOPT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transfer Structure for Select Options</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_SHLP</CMPNAME>
+     <SCONAME>IV_SHLP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of a Search Help</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INIT_SHLP</CMPNAME>
+     <SCONAME>RS_SHLP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Description of Search Help</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

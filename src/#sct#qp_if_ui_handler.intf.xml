@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/SCT/QP_IF_UI_HANDLER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>UI5 Handler</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_INTERFACE>
+    <SEOCLASSTX>
+     <LANGU>D</LANGU>
+     <DESCRIPT>UI5 Handler</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_INTERFACE>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BASE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Base Eintrag zu guid/oguid zurückgeben</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BASE_PARENTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittlung aller Eltern eines Knotens</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BASE_PARENT_RESOLVE_VBLOCK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Letzten vorherigen Parent ermitteln der nicht VBLOCK ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_GUIDS_FROM_UI_GUID_STRING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>String mit Komma getrennten guid -&gt; guid-Tabelle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_GUIDS_FROM_UI_VNR_STRING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>String mit Komma getrennten vnrvvs -&gt; guid-Tabelle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_HIERARCHY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vorschriftenart laden (stateful oder stateless)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE</CMPNAME>
+     <SCONAME>IV_GUID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vorschriften GUID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE</CMPNAME>
+     <SCONAME>IV_OGUID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Original GUID; Zuordnung zur Kopfvorschrift</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE</CMPNAME>
+     <SCONAME>IV_STATEFUL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nachladen mit Objekttypdaten</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE</CMPNAME>
+     <SCONAME>RR_BASE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Daten Vorschriften Hierarchie</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE_PARENTS</CMPNAME>
+     <SCONAME>IR_BASE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>gesuchter BASE Eintrag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE_PARENTS</CMPNAME>
+     <SCONAME>RT_BASE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelter Base Eintrag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE_PARENT_RESOLVE_VBLOCK</CMPNAME>
+     <SCONAME>/SCT/QP_CX_ERROR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fehlerhandling im QV-Cockpit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE_PARENT_RESOLVE_VBLOCK</CMPNAME>
+     <SCONAME>RS_BASE_PARENT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktueller Parent</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY</CMPNAME>
+     <SCONAME>ET_BASE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabelle mit Referenzen auf die BASE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY</CMPNAME>
+     <SCONAME>IV_GUID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vorschriften GUID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY</CMPNAME>
+     <SCONAME>IV_OGUID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Vorschriften GUID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY</CMPNAME>
+     <SCONAME>RR_BASE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Daten Vorschriften Hierarchie</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

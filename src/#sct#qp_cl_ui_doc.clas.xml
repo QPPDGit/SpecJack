@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/SCT/QP_CL_UI_DOC</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>UI Dokumenten</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>D</LANGU>
+     <DESCRIPT>UI Dokumenten</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_SHOW_DOCUMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Display document preview</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_SHOW_TAB</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellarische Anzeige der Daten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_OBJTYP_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objektypdaten laden/aufbereiten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DOC</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dokumentenverwaltung mit BDS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_FCAT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zusammenhaltung von Feldkatalogen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_TOOLBAR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Baut die Toolbar auf</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EXTENSION_ICON</CMPNAME>
+     <SCONAME>IV_EXTENSION</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dateinamenserweiterung</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_RAW</CMPNAME>
+     <SCONAME>IV_INDEX</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zeilenindex interner Tabellen</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

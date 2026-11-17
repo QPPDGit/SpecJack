@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/SCT/QP_IF_UI_MODEL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>UI Stateless Model</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BASE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get base</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BASE_PARENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Ermittlung aller Eltern eines Knotens</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BASE_PARENT_RESOLVE_VBLOCK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Letzten vorherigen Parent ermitteln der nicht VBLOCK ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_HIERARCHY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get node hierarchy</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>get singleton UI instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_BASE_ACTION_ALLOWED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Ist die Aktion für den Base Eintrag laut Logik erlaubt</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE</CMPNAME>
+     <SCONAME>IV_GUID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Specification GUID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE</CMPNAME>
+     <SCONAME>IV_OGUID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Original GUID; Assigned to header specification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE</CMPNAME>
+     <SCONAME>RR_BASE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Base specification data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE_PARENTS</CMPNAME>
+     <SCONAME>IR_BASE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>gesuchter BASE Eintrag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE_PARENTS</CMPNAME>
+     <SCONAME>RTREF_BASE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Ermittelter Base Eintrag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE_PARENT_RESOLVE_VBLOCK</CMPNAME>
+     <SCONAME>/SCT/QP_CX_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fehlerhandling im QV-Cockpit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BASE_PARENT_RESOLVE_VBLOCK</CMPNAME>
+     <SCONAME>RR_BASE_PARENT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Aktueller Parent</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY</CMPNAME>
+     <SCONAME>IV_GUID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Specification GUID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY</CMPNAME>
+     <SCONAME>IV_OGUID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Original GUID; Assigned to header specification</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HIERARCHY</CMPNAME>
+     <SCONAME>RR_BASE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Base specification data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>UI Stateless Model</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_BASE_ACTION_ALLOWED</CMPNAME>
+     <SCONAME>/SCT/QP_CX_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fehlerhandling im QV-Cockpit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_BASE_ACTION_ALLOWED</CMPNAME>
+     <SCONAME>IV_ACTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Aktionscode</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/SCT/QP_CL_UI_NODE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>UI Node Class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>D</LANGU>
+     <DESCRIPT>UI Node</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_CHECK_CHANGES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Offene Änderungen durchführen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_CHECK_CHANGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>process open changes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_FOOTER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Soll ein Footer angezeigt werden</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_FOOTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>show footer ?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_REFRESH_NAVIGATION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktualisieren der Navigationsliste</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_REFRESH_NAVIGATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>actualize Navigation list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_SHOW_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anzeige Knoten + Objekttypen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DO_SHOW_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display Node + object types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ACTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read action out of event</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ACTIVITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read activity out of event</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UI_LOG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>UI Objekttyp Header</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_UI_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>UI Header object type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_SAVE_ARG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of Strings</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ACTION</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Transaction</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ACTIVITY</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Transaction</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
